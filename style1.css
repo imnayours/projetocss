@@ -1,0 +1,301 @@
+body{
+    background-color: #a9a9a9BB !important;
+}
+
+#welcome{
+    color:#171934;
+    text-align: center;
+    font-size: 15px;
+    background-color: #a9a9a9BB;
+}
+
+div{
+    padding: 0px;
+    margin: 0px;
+}
+
+#log{
+    font-size: 150%;
+    color: rgb(133, 131, 131);
+    padding: 10px;
+    margin:0px;
+    text-align: center;
+}
+
+text{
+    text-align: center;
+}
+#logo{
+    text-align: center;
+    padding: 30px;
+    margin: 0px;   
+}
+
+.textocentral{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    padding: 0;
+}
+
+.menu ul li> ul{
+    display: block;
+    padding: 0px;
+}
+.menu ul li {
+	list-style-type: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    text-align: center;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.menu ul li:hover {
+    background-color: #aeada7BB;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    max-height: 36px;
+    transition: 0.5;
+}
+
+.menu ul li:hover .submenu {
+    background-color: #d7ccc7;
+    display: block;
+    max-height: 250px;
+    color: white;
+    position: absolute;
+    margin-top: 38px;
+    width:100%;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+.submenu{
+    color: white;
+    overflow: hidden;
+    max-height: 0;
+    font-size: 15px;
+    position: absolute;  
+    text-align: center;
+    margin-bottom:2px;
+}
+  
+.submenu:hover {
+    background-color: #d7ccc7;
+    display: block;
+    position: absolute;
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%;
+    height: 35px;
+}
+
+#reta{
+    background-color: #e2e2e2;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+
+article{
+    padding: 10px;
+}
+
+#bg{
+   max-width: 230px;
+   height: 250px;
+   background-color: #cec8aeBB;
+   padding: 25px;
+   text-align: center;
+   margin: 0px;
+   position:relative;
+}
+
+#sinopse1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; 
+    text-align: center;
+	right: 90px; 
+	bottom: 70px;  
+    color: white;
+    background-color: #0c1e36;
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    border:solid 1px;
+    border-radius:20px;
+}
+
+#foto1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; 
+	right: 90px;
+	bottom: 70px;
+}
+
+/*#sinopse1,#foto1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; 
+	right: 90px; /* posiciona a 90px para a esquerda 
+	bottom: 70px; /* posiciona a 70px para baixo 
+    color: white;
+    background-color: #0c1e36;
+	}
+    */
+
+#botao1{
+    display: block;
+    left: 550px; /* posiciona a 90px para a esquerda */ 
+	bottom: 30px;
+    position: absolute;
+}
+
+#foto2{
+    display: block;
+    position: absolute; 
+	bottom: -200px;
+}
+
+#sinopse2{
+    display: block;
+    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    right: 90px; /* posiciona a 90px para a esquerda */ 
+	bottom: -200px; /* posiciona a 70px para baixo */
+    color: white;
+    background-color: #0c1e36;
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    border:solid 1px;
+    border-radius:20px;
+}
+
+#botao2{
+    display: block;
+    left: 550px; /* posiciona a 90px para a esquerda */ 
+	bottom: -230px;
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+    display: block;
+    left: 550px; /* posiciona a 90px para a esquerda */ 
+	bottom: 270px;
+    position: absolute;
+    color: #f6f8f2 !important;
+
+}
+
+.livro1{
+    text-align: center;
+    display: block;
+    left: 480px; /* posiciona a 90px para a esquerda */ 
+	bottom: 200px;
+    position: absolute;
+    padding: 5px;
+}
+
+.livro2{
+    text-align: center;
+    display: block;
+    left: 550px; /* posiciona a 90px para a esquerda */ 
+	bottom: -70px;
+    position: absolute;
+}
+
+p{
+    display: inline-block;
+    color: rgb(138, 20, 20);
+    max-width: 40%;
+    left: 10px;
+}
+
+input, select{
+    max-width: 230%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+p{
+    padding: 0px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    color:white;
+    background-color:#171934;
+    font-weight: bold;
+    padding: 0px;
+    width: 190px;
+    text-align: center;
+}
+
+section{
+    background-image: url(header.jfif);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    margin: 30px;
+    background-blend-mode: darken;
+    height: 240px;
+}
+
+#tabela{
+    position: absolute;
+    right: 290px;
+	bottom: -500px;
+    margin: 30px;
+    padding-bottom: 30px;
+    background-color: thistle;
+}
+
+.botao{
+    color: white;
+    background-color: #171934;
+    font-size: 12px;
+}
+
+footer{
+    margin-top: 50%;
+    text-align: right;    
+}
